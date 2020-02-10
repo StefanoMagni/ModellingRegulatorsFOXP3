@@ -2,7 +2,7 @@
 
 ## Credits
 
-The matlab code present in this directory has been written by Stefano Magni, Rucha Sawlekar, Laurent Mombaerts and Zuogong Yue. It is based on scientific work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng, which can be found in a manuscript which will appear soon on biorXiv and titled "Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells". 
+The matlab code present in this directory has been written by Stefano Magni and Rucha Sawlekar, with contributions from Laurent Mombaerts and Zuogong Yue. It is based on scientific (computational and experimental) work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng. This work can be found in a manuscript which will appear soon on biorXiv (and will soon be submitted for journal publciation) and titled "Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells". 
 
 
 ## What is it?
@@ -13,12 +13,12 @@ This code represents the implementation of our method for dynamically modelling 
 ## Content of this repository
 
 This repository contains different types of folders.
-Folders whose names start with **Preliminary**: they contain scripts which perform preliminary steps of pre-processing of the raw data mentioned above, to normalize them (gcrma) and load them into Matlab in a format suitable for analysis.
-- <u>Folders whose names start with **MAJOR**:</u> they contain all the scripts which where used to filter the above mentioned data (MAJOR_1), apply the All2one method without delay (MAJOR_2), and with delay (MAJOR_3)
-- Folders whose names start with **RESULTS**:
-- Folders whose names start with **Minor**:
-- Folder named **Manuscript**:
-- Folder Named **Dynamics_of_4TargetGenes_Tregs**
+- *Folders whose names start with **Preliminary**:* they contain scripts which perform preliminary steps of pre-processing of the raw data mentioned above, to normalize them (gcrma) and load them into Matlab in a format suitable for analysis.
+- *Folders whose names start with **MAJOR**:* they contain all the scripts which where used to filter the above mentioned data (MAJOR_1), apply the All2one method without delay (MAJOR_2), and with delay (MAJOR_3)
+- *Folders whose names start with **RESULTS**:*
+- *Folders whose names start with **Minor**:*
+- *Folder named **Manuscript**:*
+- *Folder Named **Dynamics_of_4TargetGenes_Tregs***
 
 
 ## How to run the scripts
