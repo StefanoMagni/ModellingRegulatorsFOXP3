@@ -13,12 +13,12 @@ This code represents the implementation of our method for dynamically modelling 
 ## Content of this repository
 
 This repository contains different types of folders.
-- *Folders whose names start with **Preliminary**:* they contain scripts which perform preliminary steps of pre-processing of the raw data mentioned above, to normalize them (gcrma) and load them into Matlab in a format suitable for analysis.
-- *Folders whose names start with **MAJOR**:* they contain all the scripts which where used to filter the above mentioned data (MAJOR_1), apply the All2one method without delay (MAJOR_2), and with delay (MAJOR_3)
-- *Folders whose names start with **RESULTS**:*
-- *Folders whose names start with **Minor**:*
-- *Folder named **Manuscript**:*
-- *Folder Named **Dynamics_of_4TargetGenes_Tregs***
+- *Folders whose names start with* **Preliminary**: they contain scripts which perform preliminary steps of pre-processing of the raw data mentioned above, to normalize them (gcrma) and load them into Matlab in a format suitable for analysis. these scripts should be run once on the raw data, and they are necessary for all the following scripts to run.
+- *Folders whose names start with* **MAJOR**: they contain all the scripts which where used to filter the above mentioned data (MAJOR_1), apply the All2one method without delay (MAJOR_2), and with delay (MAJOR_3), which means to generate all the results of our manuscript above. In addition, there ate further analysis on Teff cells (MAJOR_4).
+- *Folders whose names start with* **RESULTS**: these folders contain results of the ranking performed by the previous scripts.
+- *Folders whose names start with* **Minor**: these folders contain various additional analysis which were performed and are not covered in the manuscript. Certain investigated further aspects of the system under study, but didn't contribute to the focus of this manuscript. Others do not allow to extract any useful information.
+- *Folder named* **Manuscript**: this folder contains the manuscript itself.
+- *Folder Named* **Dynamics_of_4TargetGenes_Tregs**: this folder contains plots of the time series data of FOXP3, and of three other genes of potential interest for Tregs.
 
 
 ## How to run the scripts
@@ -29,8 +29,3 @@ To run our code:
 2. Make sure you have installed Matlab (we developed the code under version 2016b, so we suggest this or subsequent versions).
 3. Open Matlab.
 4. Select the script corresponding to the analysis you are interested in running, and run it.
-
-
-## Brief description of each script's structure and function
-
-WORK IN PROGRESS
