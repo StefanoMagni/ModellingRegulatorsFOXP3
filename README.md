@@ -31,6 +31,6 @@ To run our code:
 4. Select the script corresponding to the analysis you are interested in running, and run it.
 
 
-## Brief description of the scripts' structure and function
+## Brief description of each script's structure and function
 
 WORK IN PROGRESS
