@@ -2,7 +2,7 @@
 
 ## Credits
 
-The matlab code present in this directory has been written by Stefano Magni and Rucha Sawlekar, with contributions from Laurent Mombaerts and Zuogong Yue. It is based on scientific (computational and experimental) work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng. This work can be found in a manuscript which will appear soon on biorXiv (and will soon be submitted for journal publciation) and titled "Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells". 
+The MATLAB code present in this directory has been written by Stefano Magni and Rucha Sawlekar, with contributions from Laurent Mombaerts and Zuogong Yue. It is based on scientific (computational and experimental) work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng. This work can be found in a manuscript which will appear soon on biorXiv (and will soon be submitted for journal publciation) and titled "Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells". 
 
 
 ## What is it?
@@ -13,7 +13,7 @@ This code represents the implementation of our method for dynamically modelling 
 ## Content of this repository
 
 This repository contains different types of folders.
-- *Folders whose names start with* **Preliminary**: they contain scripts which perform preliminary steps of pre-processing of the raw data mentioned above, to normalize them (gcrma) and load them into Matlab in a format suitable for analysis. these scripts should be run once on the raw data, and they are necessary for all the following scripts to run.
+- *Folders whose names start with* **Preliminary**: they contain scripts which perform preliminary steps of pre-processing of the raw data mentioned above, to normalize them (gcrma) and load them into MATLAB in a format suitable for analysis. these scripts should be run once on the raw data, and they are necessary for all the following scripts to run.
 - *Folders whose names start with* **MAJOR**: they contain all the scripts which where used to filter the above mentioned data (MAJOR_1), apply the All2one method without delay (MAJOR_2), and with delay (MAJOR_3), which means to generate all the results of our manuscript above. In addition, there ate further analysis on Teff cells (MAJOR_4).
 - *Folders whose names start with* **RESULTS**: these folders contain results of the ranking performed by the previous scripts.
 - *Folders whose names start with* **Minor**: these folders contain various additional analysis which were performed and are not covered in the manuscript. Certain investigated further aspects of the system under study, but didn't contribute to the focus of this manuscript. Others do not allow to extract any useful information.
@@ -26,8 +26,8 @@ This repository contains different types of folders.
 To run our code:
 
 1. Download the full content of the directory containing this README file.
-2. Make sure you have installed Matlab (we developed the code under version 2016b, so we suggest this or subsequent versions).
-3. Open Matlab.
+2. Make sure you have installed MATLAB (we developed the code under versions 2016a, 2016b and 2017a, so we suggest these or subsequent versions).
+3. Open MATLAB.
 4. Select the script corresponding to the analysis you are interested in running, and run it.
 
 
