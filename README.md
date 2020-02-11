@@ -33,8 +33,10 @@ To run our code:
 
 ## Related work from our group
 
-Our method contained in this repository has the main goal of scanning genome-wide time-series microarray from human T regulatory cells data and rank genes as potential regulators of FOXP3. The dynamical modelling technique used here employs first order linear-time invarian (LTI) O.D.E. models, and it is based on previous work from members of our group, primarily Laurent Mombaerts. The codes from that work can be found e.g. in https://github.com/Lmombaerts/DyDE, and the study is described in [1]. A comparison of the performances of the DyDE technique w.r.t. other methods for inference of gene regulatory networks can be found in [2]. The DyDE technique has also been applied to the study of barley in [3].
+Our method contained in this repository has the main goal of scanning genome-wide time-series microarray from human T regulatory cells data and rank genes as potential regulators of FOXP3. The dynamical modelling technique used here employs first order linear-time invarian (LTI) O.D.E. models, and it is based on previous work from members of our group, primarily Laurent Mombaerts. The codes from that work can be found e.g. in https://github.com/Lmombaerts/DyDE, and the study is described in **[1]**. A comparison of the performances of the DyDE technique w.r.t. other methods for inference of gene regulatory networks can be found in **[2]**. The DyDE technique has also been applied to the study of barley in **[3]**.
 
-[1] Mombaerts, L., Carignano, A., Robertson, F. C., Hearn, T. J., Junyang, J., Hayden, D., ... & Yuan, Y. (2019). Dynamical differential expression (DyDE) reveals the period control mechanisms of the Arabidopsis circadian oscillator. PLoS computational biology, 15(1), e1006674.
-[2] Mombaerts, L., Aalto, A., Markdahl, J., & Gonçalves, J. (2019). A multifactorial evaluation framework for gene regulatory network reconstruction. IFAC-PapersOnLine, 52(26), 262-268.
-[3] Müller, L., Mombaerts, L., Pankin, A., Davis, S. J., Webb, A. A., Goncalves, J., & von Korff, M. (2019). Differential effects of day-night cues and the circadian clock on the barley transcriptome. bioRxiv, 840322.
+**[1]** Mombaerts, L., Carignano, A., Robertson, F. C., Hearn, T. J., Junyang, J., Hayden, D., ... & Yuan, Y. (2019). Dynamical differential expression (DyDE) reveals the period control mechanisms of the Arabidopsis circadian oscillator. PLoS computational biology, 15(1), e1006674.
+
+**[2]** Mombaerts, L., Aalto, A., Markdahl, J., & Gonçalves, J. (2019). A multifactorial evaluation framework for gene regulatory network reconstruction. IFAC-PapersOnLine, 52(26), 262-268.
+
+**[3]** Müller, L., Mombaerts, L., Pankin, A., Davis, S. J., Webb, A. A., Goncalves, J., & von Korff, M. (2019). Differential effects of day-night cues and the circadian clock on the barley transcriptome. bioRxiv, 840322.
