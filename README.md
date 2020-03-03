@@ -2,7 +2,7 @@
 
 ## Credits
 
-The MATLAB code present in this directory has been written by Stefano Magni and Rucha Sawlekar, with contributions from Laurent Mombaerts and Zuogong Yue. It is based on scientific (computational and experimental) work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng. This work can be found in a manuscript which will appear soon on biorXiv (and will soon be submitted for journal publciation) and titled "Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells". 
+The MATLAB code present in this directory has been written by Stefano Magni and Rucha Sawlekar, with contributions from Laurent Mombaerts and Zuogong Yue. It is based on scientific (computational and experimental) work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng. This work can be found as a preprint in the manuscript **[1]** which can be downloaded from BiorXiv https://doi.org/10.1101/2020.02.13.943688 (currently submitted for journal publciation) and titled "Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells". 
 
 
 ## What is it?
@@ -33,10 +33,12 @@ To run our code:
 
 ## Related work from our group
 
-Our method contained in this repository has the main goal of scanning genome-wide time-series microarray from human T regulatory cells data and rank genes as potential regulators of FOXP3. The dynamical modelling technique used here employs first order linear-time invarian (LTI) O.D.E. models, and it is based on previous work from members of our group, primarily Laurent Mombaerts. The codes from that work can be found e.g. in https://github.com/Lmombaerts/DyDE, and the study is described in **[1]**. A comparison of the performances of the DyDE technique w.r.t. other methods for inference of gene regulatory networks can be found in **[2]**. The DyDE technique has also been applied to the study of barley in **[3]**.
+Our method contained in this repository has the main goal of scanning genome-wide time-series microarray from human T regulatory cells data and rank genes as potential regulators of FOXP3. The dynamical modelling technique used here employs first order linear-time invarian (LTI) O.D.E. models, and it is based on previous work from members of our group, primarily Laurent Mombaerts. The codes from that work can be found e.g. in https://github.com/Lmombaerts/DyDE, and the study is described in **[2]**. A comparison of the performances of the DyDE technique w.r.t. other methods for inference of gene regulatory networks can be found in **[3]**. The DyDE technique has also been applied to the study of barley in **[4]**.
 
-**[1]** *Mombaerts, L., Carignano, A., Robertson, F. C., Hearn, T. J., Junyang, J., Hayden, D., ... & Yuan, Y. (2019). Dynamical differential expression (DyDE) reveals the period control mechanisms of the Arabidopsis circadian oscillator. PLoS computational biology, 15(1), e1006674.*
+**[1]** *Sawlekar, R., Magni, S., Capelle, C. , Baron, A., Zeng, Ni, Mombaerts, L., Yue, Z., Yuan, Y., He, F.Q. and Gonçalves, J. (2020) Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells. BioRxiv 2020.02.13.943688; doi: https://doi.org/10.1101/2020.02.13.943688*
 
-**[2]** *Mombaerts, L., Aalto, A., Markdahl, J., & Gonçalves, J. (2019). A multifactorial evaluation framework for gene regulatory network reconstruction. IFAC-PapersOnLine, 52(26), 262-268.*
+**[2]** *Mombaerts, L., Carignano, A., Robertson, F. C., Hearn, T. J., Junyang, J., Hayden, D., ... & Yuan, Y. (2019). Dynamical differential expression (DyDE) reveals the period control mechanisms of the Arabidopsis circadian oscillator. PLoS computational biology, 15(1), e1006674.*
 
-**[3]** *Müller, L., Mombaerts, L., Pankin, A., Davis, S. J., Webb, A. A., Goncalves, J., & von Korff, M. (2019). Differential effects of day-night cues and the circadian clock on the barley transcriptome. bioRxiv, 840322.*
+**[3]** *Mombaerts, L., Aalto, A., Markdahl, J., & Gonçalves, J. (2019). A multifactorial evaluation framework for gene regulatory network reconstruction. IFAC-PapersOnLine, 52(26), 262-268.*
+
+**[4]** *Müller, L., Mombaerts, L., Pankin, A., Davis, S. J., Webb, A. A., Goncalves, J., & von Korff, M. (2019). Differential effects of day-night cues and the circadian clock on the barley transcriptome. bioRxiv, 840322.*
