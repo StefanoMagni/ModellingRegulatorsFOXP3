@@ -2,6 +2,8 @@
 
 ## Credits
 
+To use our original or adapted codes, please cite our work https://doi.org/10.1101/2020.02.13.943688 as **[1]**, see reference at the end of this document.
+
 The MATLAB code present in this directory has been written by Stefano Magni and Rucha Sawlekar, with contributions from Laurent Mombaerts and Zuogong Yue. It is based on scientific (computational and experimental) work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng. This work can be found as a preprint in the manuscript **[1]** which can be downloaded from BiorXiv https://doi.org/10.1101/2020.02.13.943688 (currently submitted for journal publciation) and titled "Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells". 
 
 
