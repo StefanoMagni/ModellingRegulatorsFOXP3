@@ -2,9 +2,9 @@
 
 ## Credits
 
-To use our original or adapted codes, please cite our work https://doi.org/10.1101/2020.02.13.943688 as **[1]**, see reference at the end of this document.
+To use our original or adapted codes, please cite our work https://doi.org/10.1038/s41540-024-00387-9 as **[1]**, see reference at the end of this document.
 
-The MATLAB code present in this directory has been written by Stefano Magni and Rucha Sawlekar, with contributions from Laurent Mombaerts and Zuogong Yue. It is based on scientific (computational and experimental) work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng. This work can be found as a preprint in the manuscript **[1]** which can be downloaded from BiorXiv https://doi.org/10.1101/2020.02.13.943688 (currently submitted for journal publciation) and titled "Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells". 
+The MATLAB code present in this directory has been written by Stefano Magni and Rucha Sawlekar, with contributions from Laurent Mombaerts and Zuogong Yue. It is based on scientific (computational and experimental) work performed by Stefano Magni, Rucha Sawlekar, Jorge Goncalves, Laurent Mombaerts, Zuogong Yue, Feng He, Christophe Capelle, Ye Yuan, Alexandre Baron and Ni Zeng. This work can be found in the published manuscript **[1]** which can be downloaded from https://doi.org/10.1038/s41540-024-00387-9 and titled "Inferring upstream regulatory genes of FOXP3 in human regulatory T cells from time-series transcriptomic data". 
 
 
 ## What is it?
@@ -35,9 +35,9 @@ To run our code:
 
 ## Related work from our group
 
-Our method contained in this repository has the main goal of scanning genome-wide time-series microarray from human T regulatory cells data and rank genes as potential regulators of FOXP3. The dynamical modelling technique used here employs first order linear-time invarian (LTI) O.D.E. models, and it is based on previous work from members of our group, primarily Laurent Mombaerts. The codes from that work can be found e.g. in https://github.com/Lmombaerts/DyDE, and the study is described in **[2]**. A comparison of the performances of the DyDE technique w.r.t. other methods for inference of gene regulatory networks can be found in **[3]**. The DyDE technique has also been applied to the study of barley in **[4]**.
+Our method contained in this repository has the main goal of scanning genome-wide time-series microarray from human T regulatory cells data and rank genes as potential regulators of FOXP3. The dynamical modelling technique used here employs first order linear-time invarian (LTI) O.D.E. models, and it is based on previous work from members of our group, primarily Laurent Mombaerts. The codes from that work can be found e.g. in https://github.com/Lmombaerts/DyDE, and the corresponding study is described in **[2]**. A comparison of the performances of the DyDE technique w.r.t. other methods for inference of gene regulatory networks can be found in **[3]**. The DyDE technique has also been applied to the study of barley in **[4]**.
 
-**[1]** *Sawlekar, R., Magni, S., Capelle, C. , Baron, A., Zeng, Ni, Mombaerts, L., Yue, Z., Yuan, Y., He, F.Q. and Gonçalves, J. (2020) Causal dynamical modelling predicts novel regulatory genes of FOXP3 in human regulatory T cells. BioRxiv 2020.02.13.943688; doi: https://doi.org/10.1101/2020.02.13.943688*
+**[1]** *Magni, S., Sawlekar, R., Capelle, C.M., Baron, A., Zeng, Ni, Mombaerts, L., Yue, Z., Yuan, Y., He, F.Q. and Gonçalves, J., Inferring upstream regulatory genes of FOXP3 in human regulatory T cells from time-series transcriptomic data. npj Syst Biol Appl 10, 59 (2024). https://doi.org/10.1038/s41540-024-00387-9*
 
 **[2]** *Mombaerts, L., Carignano, A., Robertson, F. C., Hearn, T. J., Junyang, J., Hayden, D., ... & Yuan, Y. (2019). Dynamical differential expression (DyDE) reveals the period control mechanisms of the Arabidopsis circadian oscillator. PLoS computational biology, 15(1), e1006674.*
 
